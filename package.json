@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node ./src/callback/challenge.js",
+    "promise": "node src/promise/challenge.js",
+    "promise-post": "node src/promise/challenge-post.js"
   },
   "keywords": [
     "javasript"
@@ -12,6 +14,8 @@
   "author": "Osvaldo Pérez <osvaldopg86@hotmail.com>",
   "license": "MIT",
   "dependencies": {
+    "node-fetch": "^3.3.2",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "type": "module"
 }
